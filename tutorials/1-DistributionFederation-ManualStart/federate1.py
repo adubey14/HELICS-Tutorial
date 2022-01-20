@@ -67,7 +67,7 @@ def main():
     subid = h.helicsFederateRegisterSubscription(fed, "DistributionSim_B2_G_1/totalLoad", "")
     
     # Register endpoint
-    epid = h.helicsFederateRegisterEndpoint(fed, "ep1", None)
+    # epid = h.helicsFederateRegisterEndpoint(fed, "ep1", None)
     
     # h.helicsSubscriptionSetDefaultComplex(subid, 0, 0)
     
